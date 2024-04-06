@@ -27,7 +27,7 @@ export default function AppLayout() {
   const themes = useColorScheme();
   let dark = {
     ...DarkTheme,
-    colors: { ...DarkTheme.colors, bgRed: "rgba(255,0,0,0.7)" },
+    colors: { ...DarkTheme.colors, bgRed: "rgba(255,0,0,0.6)" },
   };
   let light = {
     ...DefaultTheme,
