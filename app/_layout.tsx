@@ -25,7 +25,10 @@ declare module "@react-navigation/native" {
 
 export default function AppLayout() {
   const themes = useColorScheme();
-  let dark = { ...DarkTheme, colors: { ...DarkTheme.colors, bgRed: "red" } };
+  let dark = {
+    ...DarkTheme,
+    colors: { ...DarkTheme.colors, bgRed: "rgba(255,0,0,0.7)" },
+  };
   let light = {
     ...DefaultTheme,
     colors: { ...DefaultTheme.colors, bgRed: "rgba(255,0,0,0.1)" },
